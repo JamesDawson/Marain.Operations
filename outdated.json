@@ -1,0 +1,218 @@
+{
+  "Projects": [
+    {
+      "Name": "Marain.Operations.Abstractions",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.Abstractions\\Marain.Operations.Abstractions.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETCoreApp,Version=v3.1",
+          "Dependencies": [
+            {
+              "Name": "Corvus.Tenancy.Abstractions",
+              "ResolvedVersion": "2.0.6",
+              "LatestVersion": "2.0.7",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Marain.Operations.Api.Specs",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.Api.Specs\\Marain.Operations.Api.Specs.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETCoreApp,Version=v3.1",
+          "Dependencies": [
+            {
+              "Name": "Corvus.Testing.AzureFunctions.SpecFlow",
+              "ResolvedVersion": "1.4.1",
+              "LatestVersion": "1.4.2",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Corvus.Configuration.TestEnvironment",
+              "ResolvedVersion": "1.2.2",
+              "LatestVersion": "1.2.3",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Corvus.Testing.SpecFlow.NUnit",
+              "ResolvedVersion": "1.4.1",
+              "LatestVersion": "1.4.2",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Marain.Operations.ControlHost.Functions",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.ControlHost.Functions\\Marain.Operations.ControlHost.Functions.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETCoreApp,Version=v3.1",
+          "Dependencies": [
+            {
+              "Name": "Corvus.Monitoring.ApplicationInsights",
+              "ResolvedVersion": "1.2.0",
+              "LatestVersion": "1.3.0",
+              "UpgradeSeverity": "Minor"
+            },
+            {
+              "Name": "Microsoft.Extensions.Logging.Console",
+              "ResolvedVersion": "3.1.15",
+              "LatestVersion": "3.1.17",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Corvus.Azure.Storage.Tenancy",
+              "ResolvedVersion": "2.0.6",
+              "LatestVersion": "2.0.7",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Microsoft.NET.Sdk.Functions",
+              "ResolvedVersion": "3.0.12",
+              "LatestVersion": "3.0.13",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Marain.Operations.Hosting.AspNetCore",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.Hosting.AspNetCore\\Marain.Operations.Hosting.AspNetCore.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETCoreApp,Version=v3.1",
+          "Dependencies": [
+            {
+              "Name": "Corvus.Identity.ManagedServiceIdentity.ClientAuthentication",
+              "ResolvedVersion": "1.0.6",
+              "LatestVersion": "1.0.7",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Marain.Tenancy.ClientTenantProvider",
+              "ResolvedVersion": "1.1.10",
+              "LatestVersion": "1.1.11",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Marain.Operations.ControlClient",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.ControlClient\\Marain.Operations.ControlClient.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETStandard,Version=v2.0",
+          "Dependencies": [
+            {
+              "Name": "Corvus.Identity.ManagedServiceIdentity.ClientAuthentication",
+              "ResolvedVersion": "1.0.6",
+              "LatestVersion": "1.0.7",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "ResolvedVersion": "3.1.15",
+              "LatestVersion": "3.1.17",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Marain.Operations.StatusHost.Functions",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.StatusHost.Functions\\Marain.Operations.StatusHost.Functions.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETCoreApp,Version=v3.1",
+          "Dependencies": [
+            {
+              "Name": "Corvus.Tenancy.Storage.Azure.Blob",
+              "ResolvedVersion": "2.0.6",
+              "LatestVersion": "2.0.7",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Corvus.Monitoring.ApplicationInsights",
+              "ResolvedVersion": "1.2.0",
+              "LatestVersion": "1.3.0",
+              "UpgradeSeverity": "Minor"
+            },
+            {
+              "Name": "Microsoft.Extensions.Logging.Console",
+              "ResolvedVersion": "3.1.15",
+              "LatestVersion": "3.1.17",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Microsoft.NET.Sdk.Functions",
+              "ResolvedVersion": "3.0.12",
+              "LatestVersion": "3.0.13",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Marain.Operations.Specs",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.Specs\\Marain.Operations.Specs.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETCoreApp,Version=v3.1",
+          "Dependencies": [
+            {
+              "Name": "Corvus.Configuration.TestEnvironment",
+              "ResolvedVersion": "1.2.2",
+              "LatestVersion": "1.2.3",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Microsoft.Extensions.Logging.Console",
+              "ResolvedVersion": "3.1.15",
+              "LatestVersion": "3.1.17",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Corvus.Testing.SpecFlow.NUnit",
+              "ResolvedVersion": "1.4.1",
+              "LatestVersion": "1.4.2",
+              "UpgradeSeverity": "Patch"
+            },
+            {
+              "Name": "Microsoft.Extensions.Configuration",
+              "ResolvedVersion": "3.1.15",
+              "LatestVersion": "3.1.17",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Marain.Operations.StatusClient",
+      "FilePath": "C:\\Users\\JamesDawson\\AppData\\Local\\Temp\\fca83481-368d-4617-a7cb-afc4218886fa\\Solutions\\Marain.Operations.StatusClient\\Marain.Operations.StatusClient.csproj",
+      "TargetFrameworks": [
+        {
+          "Name": ".NETStandard,Version=v2.0",
+          "Dependencies": [
+            {
+              "Name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "ResolvedVersion": "3.1.15",
+              "LatestVersion": "3.1.17",
+              "UpgradeSeverity": "Patch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
