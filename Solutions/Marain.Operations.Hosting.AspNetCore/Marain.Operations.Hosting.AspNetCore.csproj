@@ -1,4 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.1" />
   <Import Project="$(EndjinProjectPropsPath)" Condition="$(EndjinProjectPropsPath) != ''" />
 
   <PropertyGroup>
@@ -15,13 +16,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Corvus.Identity.ManagedServiceIdentity.ClientAuthentication" Version="1.0.6" />
-    <PackageReference Include="Endjin.RecommendedPractices" Version="1.2.0">
+    <PackageReference Include="Corvus.Identity.ManagedServiceIdentity.ClientAuthentication"  />
+    <!-- <PackageReference Include="Endjin.RecommendedPractices" >
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Marain.Tenancy.ClientTenantProvider" Version="1.1.10" />
-    <PackageReference Include="Menes.Hosting.AspNetCore" Version="2.0.1" />
+    </PackageReference> -->
+    <PackageReference Include="Marain.Tenancy.ClientTenantProvider"  />
+    <PackageReference Include="Menes.Hosting.AspNetCore"  />
   </ItemGroup>
 
   <ItemGroup>

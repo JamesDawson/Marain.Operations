@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <PackageReference Update="Corvus.Configuration.TestEnvironment"                          Version="[1.2.2]" />
+    <PackageReference Update="Corvus.Monitoring.ApplicationInsights"                         Version="[1.2.0]" />
+    <PackageReference Update="Corvus.Identity.ManagedServiceIdentity.ClientAuthentication"   Version="[1.0.6]" />
+    <PackageReference Update="Corvus.Azure.Storage.Tenancy"                                  Version="[2.0.6]" />
+    <PackageReference Update="Corvus.SpecFlow.Extensions"                                    Version="[0.6.0]" />
+    <PackageReference Update="Corvus.Tenancy.Abstractions"                                   Version="[2.0.6]" />
+    <PackageReference Update="Corvus.Tenancy.Storage.Azure.Blob"                             Version="[2.0.6]" />
+    <PackageReference Update="Corvus.Testing.SpecFlow.NUnit"                                 Version="[1.4.1]" />
+    <PackageReference Update="Corvus.Testing.AzureFunctions.SpecFlow"                        Version="[1.4.1]" />
+  </ItemGroup>
+</Project>
