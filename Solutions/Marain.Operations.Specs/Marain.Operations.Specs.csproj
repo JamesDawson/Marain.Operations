@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.1" />
   <Import Project="$(EndjinProjectPropsPath)" Condition="$(EndjinProjectPropsPath) != ''" />
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -8,12 +9,12 @@
     <RootNamespace>Marain.Operations.Specs</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Corvus.Configuration.TestEnvironment" Version="1.2.2" />
-    <PackageReference Include="Corvus.SpecFlow.Extensions" Version="0.6.0" />
-    <PackageReference Include="Marain.Services.Tenancy.Testing" Version="2.3.3" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.15" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.15" />
-    <PackageReference Include="Corvus.Testing.SpecFlow.NUnit" Version="1.4.1" />
+    <PackageReference Include="Corvus.Configuration.TestEnvironment"  />
+    <PackageReference Include="Corvus.SpecFlow.Extensions"  />
+    <PackageReference Include="Marain.Services.Tenancy.Testing"  />
+    <PackageReference Include="Microsoft.Extensions.Configuration"  />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console"  />
+    <PackageReference Include="Corvus.Testing.SpecFlow.NUnit"  />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Marain.Operations.Abstractions\Marain.Operations.Abstractions.csproj" />

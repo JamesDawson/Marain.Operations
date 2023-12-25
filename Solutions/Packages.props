@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="Packages.Microsoft.proj" />
+  <Import Project="Packages.Corvus.proj" />
+
+  <ItemGroup>
+    <PackageReference Update="Newtonsoft.Json"                                               Version="[11.0.2]" />
+    <PackageReference Update="NUnit3TestAdapter"                                             Version="[3.17.0]" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Update="Endjin.RecommendedPractices"                                   Version="[1.2.0]" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Marain.Tenancy.ClientTenantProvider"                           Version="[1.1.10]" />
+    <PackageReference Update="Marain.Services.Tenancy"                                       Version="[2.3.3]" />
+    <PackageReference Update="Marain.Services.Tenancy.Testing"                               Version="[2.3.3]" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Menes.Abstractions"                                            Version="[2.0.1]" />
+    <PackageReference Update="Menes.Hosting.AspNetCore"                                      Version="[2.0.1]" />
+  </ItemGroup>
+</Project>
